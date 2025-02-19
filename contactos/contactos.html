@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../content/font/style.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../common/navbar.css" />
+    <link rel="stylesheet" type="text/css" href="../common/footer.css" />
+    <script src="../common/script.js" defer></script>
+
+    <script defer>
+      (function (o, u, t, b, a, s, e) {
+        window[b] = window[b] || {};
+        (e = e || [])["key"] = o;
+        e["__obr"] = u.location.href;
+        a = [];
+
+        u.location.search
+          .replace("?", "")
+          .split("&")
+          .forEach(function (q) {
+            if (q.startsWith(b) || q.startsWith("_obid"))
+              e[q.split("=")[0]] = q.split("=")[1];
+          });
+
+        e["_obid"] =
+          e["_obid"] ||
+          (u.cookie.match(/(^|;)\s*_obid\s*=\s*([^;]+)/) || []).pop() ||
+          0;
+
+        for (k in e) {
+          if (e.hasOwnProperty(k))
+            a.push(encodeURIComponent(k) + "=" + encodeURIComponent(e[k]));
+        }
+
+        s = u.createElement("script");
+        s.src = t + "?" + a.join("&");
+        u.body.appendChild(s);
+      })(
+        "4509b618-48b6-4542-9bc5-bdfa9d45c43b",
+        document,
+        "https://plugin.sopro.io/hq.js",
+        "outbase"
+      );
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="icon" type="image/x-icon" href="../../content/images/icon.png" />
+    <title>Wedrone</title>
+  </head>
+  <body>
+    <!--    Navbar      -->
+
+    <div id="navbar-container"></div>
+
+    <!-- Header -->
+    <div id="header">
+      <div id="header-left">
+        <h1 id="contact_header_title">Contacte-nos</h1>
+        <br />
+        <p id="contact_header_text">
+          Fale connosco, através do <br />
+          formulário ou do email.
+        </p>
+        <br />
+        <a
+          id="contact_header_email"
+          href="mailto: geral@wedrone.pt"
+          style="cursor: pointer; text-decoration: none; color: white"
+          >geral@wedrone.pt</a
+        >
+      </div>
+      <div id="header-right">
+        <form id="form" onsubmit="return false;">
+          <input
+            placeholder="Nome"
+            id="name"
+            type="text"
+            autocomplete="off"
+            name="Name"
+          />
+          <input
+            placeholder="Email"
+            id="email"
+            type="email"
+            autocomplete="off"
+            name="Email"
+          />
+          <input
+            placeholder="Assunto"
+            id="subject"
+            type="text"
+            autocomplete="off"
+            name="Subject"
+          />
+          <textarea
+            placeholder="Mensagem"
+            id="message"
+            cols="30"
+            rows="10"
+            name="Message"
+          ></textarea>
+          <button id="btn" type="submit" onclick="sendEmail()">Enviar</button>
+          <div>
+            <div id="error-message">
+              <img
+                src="../../content/images/warning.png"
+                alt="img"
+                style="position: relative; width: 1.5rem; margin-right: 0.5rem"
+              />
+              <p id="error"></p>
+            </div>
+            <div id="check-message">
+              <img
+                src="../../content/images/checked.png"
+                alt="img"
+                style="
+                  position: relative;
+                  width: 1.2rem;
+                  height: 1.2rem;
+                  margin-right: 0.5rem;
+                "
+              />
+              <p id="form_success_message">Email enviado</p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!--    Footer      -->
+
+    <div id="footer-container"></div>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script>
+      function sendEmail() {
+        let name = document.getElementById("name").value;
+        let email = document.getElementById("email").value;
+        let subject = document.getElementById("subject").value;
+        let message = document.getElementById("message").value;
+        let errorHappend = false;
+        let error = document.getElementById("error-message");
+        let errorMessage = document.getElementById("error");
+
+        if (message === "" || message == null) {
+          errorMessage.textContent = "Escreva-nos algo";
+          document.getElementById("message").style.border =
+            "solid 1px var(--orange)";
+          error.classList.add("animate");
+          errorHappend = true;
+        } else {
+          document.getElementById("message").style.border = "solid 1px white";
+        }
+        if (
+          email === "" ||
+          email == null ||
+          !email.match(/^[^ ]+@[^ ]+\.[a-z]{2,3}$/)
+        ) {
+          errorMessage.textContent = "Email inválido";
+          document.getElementById("email").style.borderBottomColor =
+            "var(--orange)";
+          error.classList.add("animate");
+          errorHappend = true;
+        } else {
+          document.getElementById("email").style.borderBottomColor = "white";
+        }
+        if (name === "" || name == null) {
+          errorMessage.textContent = "Nome inválido";
+          document.getElementById("name").style.borderBottomColor =
+            "var(--orange)";
+          error.classList.add("animate");
+          errorHappend = true;
+        } else {
+          document.getElementById("name").style.borderBottomColor = "white";
+        }
+        if (errorHappend) {
+          setTimeout(() => error.classList.remove("animate"), 10000);
+          return;
+        }
+
+        let body =
+          "Name: " +
+          name +
+          "<br><br>Email: " +
+          email +
+          "<br><br>Message: " +
+          message;
+
+        Email.send({
+          SecureToken: "73a16da4-dbbd-4f4a-8d2e-87d81e1bd524",
+          To: "geral@wedrone.pt",
+          From: email,
+          Subject: subject,
+          Body: body,
+        });
+
+        document.getElementById("check-message").classList.add("animate");
+        document.getElementById("form").reset();
+        setTimeout(
+          () =>
+            document
+              .getElementById("check-message")
+              .classList.remove("animate"),
+          10000
+        );
+      }
+    </script>
+  </body>
+</html>

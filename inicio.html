@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./inicio/style.css" />
+    <link rel="stylesheet" type="text/css" href="../content/font/style.css" />
+    <link rel="stylesheet" type="text/css" href="./common/navbar.css" />
+    <link rel="stylesheet" type="text/css" href="./common/cookies.css" />
+    <link rel="stylesheet" type="text/css" href="./common/footer.css" />
+    <script src="./common/script.js"></script>
+    <script src="./inicio/script.js" defer></script>
+
+    <script defer>
+      (function (o, u, t, b, a, s, e) {
+        window[b] = window[b] || {};
+        (e = e || [])["key"] = o;
+        e["__obr"] = u.location.href;
+        a = [];
+
+        u.location.search
+          .replace("?", "")
+          .split("&")
+          .forEach(function (q) {
+            if (q.startsWith(b) || q.startsWith("_obid"))
+              e[q.split("=")[0]] = q.split("=")[1];
+          });
+
+        e["_obid"] =
+          e["_obid"] ||
+          (u.cookie.match(/(^|;)\s*_obid\s*=\s*([^;]+)/) || []).pop() ||
+          0;
+
+        for (k in e) {
+          if (e.hasOwnProperty(k))
+            a.push(encodeURIComponent(k) + "=" + encodeURIComponent(e[k]));
+        }
+
+        s = u.createElement("script");
+        s.src = t + "?" + a.join("&");
+        u.body.appendChild(s);
+      })(
+        "4509b618-48b6-4542-9bc5-bdfa9d45c43b",
+        document,
+        "https://plugin.sopro.io/hq.js",
+        "outbase"
+      );
+    </script>
+
+    <link rel="icon" type="image/x-icon" href="../content/images/icon.png" />
+    <title>Wedrone</title>
+  </head>
+  <body>
+    <!--    Navbar      -->
+
+    <div id="navbar-container"></div>
+    <div id="cookies" style="display: none;"></div>
+
+    <!-- Header -->
+    <div id="header">
+      <div id="header-left">
+        <span>&ensp;</span>
+        <div>
+          <span id="header_subtitle">Technology</span>
+        </div>
+      </div>
+      <div id="header-right">
+        <div id="header-right-container">
+          <img
+            src="../content/images/wedrone-logo-without-box.png"
+            alt="img"
+            style="width: 7rem; margin-bottom: 1rem"
+          />
+          <p id="header_text">
+            Desenvolvemos produtos com base em <span>alumínio</span>, com
+            tecnologia de fundição injetada e mecanização de peças para a
+            <span>indústria automóvel e construção</span>.
+          </p>
+          <button
+            id="header_button"
+            id="header-btn"
+            onclick="window.scrollTo({top: 700, behavior: 'smooth'})"
+          >
+            <span>↓</span>&ensp;mais
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- About  -->
+    <div id="about">
+      <div id="about-container">
+        <div id="about-numbers">
+          <h1 class="reveal vertical" id="about_numbers_title">EM NÚMEROS</h1>
+          <div id="about-numbers-list" class="reveal vertical">
+            <div>
+              <h1>200</h1>
+              <p id="about_numbers_colaboradores">colaboradores</p>
+            </div>
+            <div>
+              <h1>4</h1>
+              <p id="about_numbers_fornos">fornos de fusão</p>
+            </div>
+            <div>
+              <h1>23</h1>
+              <p id="about_numbers_celulas">células de fundição</p>
+            </div>
+            <div>
+              <h1>39</h1>
+              <p id="about_numbers_centros">centros de maquinação</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="about-info">
+          <div id="about-info-container">
+            <div id="about-info-buttons" class="reveal vertical">
+              <button
+                id="vision_button"
+                onclick="visionBtn()"
+                class="about-btn active"
+              >
+                VISÃO
+              </button>
+              <button
+                id="mission_button"
+                onclick="missionBtn()"
+                class="about-btn"
+              >
+                MISSÃO
+              </button>
+              <button
+                id="values_button"
+                onclick="valuesBtn()"
+                class="about-btn"
+              >
+                VALORES
+              </button>
+            </div>
+
+            <ul id="about-vision-list" class="about-info-list active">
+              <div>
+                <li>
+                  <span id="vision_text">
+                    A Wedrone tem como ambição ser a referência nacional e
+                    europeia na conceção e desenvolvimento de projetos de
+                    engenharia industrial em alumínio injetado.
+                  </span>
+                </li>
+              </div>
+            </ul>
+            <ul id="about-mission-list" class="about-info-list">
+              <div>
+                <li>
+                  <span id="mission_text">
+                    Criar e desenvolver produtos de engenharia com alto valor
+                    acrescentado, contribuindo para o crescimento económico
+                    nacional e promoção e desenvolvimento da sociedade local.
+                  </span>
+                </li>
+              </div>
+            </ul>
+            <ul id="about-values-list" class="about-info-list">
+              <div class="reveal horizontal right">
+                <li>
+                  <span id="value_1"
+                    >Excelência na conceção e desenvolvimento de produto</span
+                  >
+                </li>
+                <li><span id="value_2">Desígnio de qualidade</span></li>
+                <li>
+                  <span id="value_3"
+                    >Valorização das pessoas e da sua comunidade</span
+                  >
+                </li>
+                <li>
+                  <span id="value_4"
+                    >Politica ambiental focada na urgência do planeta</span
+                  >
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div id="about-map" class="reveal horizontal left">
+        <div id="about-map-info">
+          <div>
+            <h1 id="where_we_are_title">ONDE ESTAMOS</h1>
+            <div><div></div></div>
+          </div>
+          <p id="where_we_are_location">
+            S. Mamede de Infesta, <br />Matosinhos
+          </p>
+        </div>
+        <img src="../content/images/map.png" alt="img" />
+      </div>
+    </div>
+
+    <!-- Partnerships -->
+    <div id="partnerships">
+      <h1 class="reveal vertical" id="partners_title">PARCEIROS</h1>
+      <div id="partnerships-list">
+        <img
+          src="../content/images/partnerships/inesc-logo.png"
+          alt="img"
+          style="position: relative; margin: 2rem; grid-area: img1"
+        />
+        <img
+          src="../content/images/partnerships/ceiia-logo.png"
+          alt="img"
+          style="position: relative; margin: 2rem; grid-area: img2"
+        />
+        <img
+          src="../content/images/partnerships/inegi-logo.jpg"
+          alt="img"
+          style="position: relative; margin: 2rem; grid-area: img3"
+        />
+        <img
+          src="../content/images/partnerships/cinfu-logo.jpg"
+          alt="img"
+          style="position: relative; margin: 2rem; grid-area: img4"
+        />
+        <img
+          src="../content/images/partnerships/catim-logo.png"
+          alt="img"
+          style="position: relative; margin: 2rem; grid-area: img5"
+        />
+      </div>
+    </div>
+
+    <!--    Footer      -->
+
+    <div id="footer-container"></div>
+  </body>
+</html>

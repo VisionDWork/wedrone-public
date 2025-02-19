@@ -1,0 +1,80 @@
+/* Common styles */
+main {
+  padding: 2rem 13vw;
+  min-height: calc(100vh - 200px);
+}
+
+/* Documents page styles */
+.documents-section {
+  padding-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.documents-section h1 {
+  font-size: 2.5rem;
+  font-family: font-black;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: var(--orange);
+}
+
+.documents-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.document-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  background: rgba(56, 56, 56, .5);
+  border-radius: 8px;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.document-item:hover {
+  transform: translateY(-5px);
+}
+
+.document-item img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 1rem;
+}
+
+.document-item p {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  word-break: break-word;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  main {
+    padding: 2rem 5vw;
+  }
+
+  .sdg-item {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .sdg-icon {
+    width: 80px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .goals-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .documents-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}

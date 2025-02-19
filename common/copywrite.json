@@ -1,0 +1,467 @@
+{
+  "pt": {
+    "navbar": {
+      "about": "Sobre",
+      "products": "Produtos",
+      "clients": "Clientes",
+      "contact": "Contactos"
+    },
+    "footer": {
+      "contacts_title": "Contactos",
+      "contacts_address": "Rua Santos Dias 1052, <br> 4465-253 S. Mamede de Infesta",
+      "contacts_email_label": "geral@wedrone.pt",
+      "contacts_phone": "+351 229 050 700",
+      "contacts_linkedin": "Wedrone",
+      "achievements_title": "Prémios",
+      "achievements_list": [
+        "“Supplier Quality Excellence Award 2020”",
+        "“Supplier Quality Excellence Award 2019”",
+        "“Supplier Quality Excellence Award 2018”",
+        "from General Motors"
+      ],
+      "certificates_title": "Certificados",
+      "certificates_list": ["IATF 16949"],
+      "footer_menu_title": "Menu",
+      "footer_menu_about": "Sobre nós",
+      "footer_menu_products": "Produtos",
+      "footer_menu_clients": "Clientes",
+      "footer_menu_contact": "Contactos",
+      "powered_by": "Powered by <span onclick=\"window.location.replace('https://visiond.pt')\">Vision D</span>",
+      "rights_reserved": "© All rights reserved to Wedrone 2023"
+    },
+    "home": {
+      "header_subtitle": "Technology",
+      "header_text": "Desenvolvemos produtos com base em <span>alumínio</span>, com tecnologia de fundição injetada e mecanização de peças para a <span>indústria automóvel e construção</span>.",
+      "header_button": "↓ mais",
+      "about_numbers_title": "EM NÚMEROS",
+      "about_numbers": {
+        "colaboradores": "colaboradores",
+        "fornos": "fornos de fusão",
+        "celulas": "células de fundição",
+        "centros": "centros de maquinação"
+      },
+      "vision_button": "VISÃO",
+      "mission_button": "MISSÃO",
+      "values_button": "VALORES",
+      "vision_text": "A Wedrone tem como ambição ser a referência nacional e europeia na conceção e desenvolvimento de projetos de engenharia industrial em alumínio injetado.",
+      "mission_text": "Criar e desenvolver produtos de engenharia com alto valor acrescentado, contribuindo para o crescimento económico nacional e promoção e desenvolvimento da sociedade local.",
+      "values_list": [
+        "Excelência na conceção e desenvolvimento de produto",
+        "Desígnio de qualidade",
+        "Valorização das pessoas e da sua comunidade",
+        "Política ambiental focada na urgência do planeta"
+      ],
+      "where_we_are_title": "ONDE ESTAMOS",
+      "where_we_are_location": "S. Mamede de Infesta, <br>Matosinhos",
+      "partners_title": "PARCEIROS"
+    },
+    "about": {
+      "header_title": "SOBRE NÓS",
+      "header_text_part1": "A Wedrone é uma empresa constituída em 2020, com uma <span>vocação de desenvolvimento de atividades de Investigação & Desenvolvimento</span> (I&D), que em 2022 adquiriu todos os ativos e know-how de <span>uma sociedade com mais de 70 anos de existência</span> e especializada na aplicação da <span>tecnologia de fundição injetada de alumínio</span> para a produção de peças e componentes de alta complexidade para diversas indústrias.",
+      "header_button": "↓ mais",
+      "section2_text": "A Wedrone está determinada em garantir a afirmação crescente e sustentada na indústria automóvel, origem dos seus principais clientes e produtos, mas também em explorar novos canais de distribuição e setores de atividade como parte da sua estratégia de diversificação, assumindo-se como veículo pioneiro e inovador na engenharia de produto baseado na fundição e maquinação de peças de alumínio.",
+      "section3_text1": "Toda a equipa tem presente na sua atuação diária, seja em novos projetos, seja na redefinição dos seus processos produtivos ou na otimização dos fluxos nas linhas de montagem, o seu compromisso com a qualidade, com o cliente e com a contribuição para a comunidade onde está inserida.",
+      "section3_text2": "A Wedrone quer também assumir-se como uma nova forma de organização económico produtiva que assegura o equilíbrio sustentável entre as pessoas, o impacto gerado no ambiente e o valor gerado para todas as entidades com as quais interage de forma absolutamente comprometida, transparente e responsável."
+    },
+    "products": {
+      "header_title": "PRODUTOS",
+      "header_text1": "Acompanhamos as novas tendências da indústria automóvel, nomeadamente na eletrificação dos veículos e estamos a investir na diversificação da nossa oferta.",
+      "header_text2": "Além de produtos para motores ICE, <br> já produzimos peças para veículos elétricos.",
+      "header_pdf_link": "Condições gerais de compra",
+      "we_produce_title": "PRODUZIMOS",
+      "we_produce_subtitle": "Alguns exemplos",
+      "we_produce_list": [
+        "Válvulas EGR",
+        "Aceleradores",
+        "Transmissão",
+        "Filtros de óleo",
+        "Dissipadores de calor EV"
+      ],
+      "e_mobility_title": "E-MOBILIDADE",
+      "e_mobility_subtitle": "Fazemos aplicações para",
+      "e_mobility_list": [
+        "Conversores 48V/12V",
+        "Conversores AC/DC, DC/AC, DC/DC",
+        "Sistema de controlo anti-rolamento",
+        "Sistema de caixa de junção"
+      ],
+      "engineering_title": "ENGENHARIA DO PRODUTO",
+      "engineering_text": "Simulamos o preenchimento e solidificação para otimizar os nossos moldes e evitar correções futuras. Introduzimos designs personalizados com base nos resultados para garantir qualidade.",
+      "production_title": "PRODUÇÃO",
+      "production_description": "O que fazemos representado em algumas imagens.",
+      "galery_texts": [
+        "Unidade de maquinação totalmente automatizada - fábrica WEDRONE",
+        "Fundição e Moldagem - célula de capacidade produtiva instalada.",
+        "Dispomos de vários mecanismos de controlo da qualidade destinados a assegurar a conformidade do produto e o alinhamento com as melhores práticas do mercado."
+      ]
+    },
+    "contact": {
+      "header_title": "Contacte-nos",
+      "header_text": "Fale connosco, através do <br> formulário ou do email.",
+      "header_email": "geral@wedrone.pt",
+      "form_name_placeholder": "Nome",
+      "form_email_placeholder": "Email",
+      "form_subject_placeholder": "Assunto",
+      "form_message_placeholder": "Mensagem",
+      "form_button": "Enviar",
+      "form_error_message_empty": "Escreva-nos algo",
+      "form_error_invalid_email": "Email inválido",
+      "form_error_invalid_name": "Nome inválido",
+      "form_success_message": "Email enviado"
+    },
+    "clients": {
+      "header_title": "CLIENTES",
+      "header_text": "Orgulhamo-nos de ter uma vasta carteira de Clientes, contando com algumas das <span>marcas mais reconhecidas do sector automóvel.</span>"
+    },
+    "sustainability": {
+      "goals_title": "Metas de Longo/Médio Prazo",
+      "work_accidents": {
+        "title": "Acidentes de Trabalho",
+        "zero_accidents": "Zero Acidentes com dias perdidos em 2027",
+        "legal_indicators": "Indicadores Legais de Segurança",
+        "frequency": "Frequência, Gravidade, Incidência, Índice de Duração Inferior a 5% em 2027",
+        "absenteeism": "Absenteísmo"
+      },
+      "resource_management": {
+        "title": "Gestão de Recursos",
+        "water": "Consumo de Água: Redução de 50% em 2030",
+        "waste": "Redução de resíduos: 25% de redução na produção de resíduos"
+      },
+      "carbon_footprint": {
+        "title": "Pegada de Carbono",
+        "scope1": "Redução de 50% no Escopo 1 em 2030",
+        "scope2": "Redução de 100% no Escopo 2 em 2025",
+        "scope3": "Redução de 10% no Escopo 3 em 2030",
+        "cfp": "CFP zero em 2040",
+        "energy": "Eficiência Energética: Melhoria de 15% na eficiência energética elétrica em 2025"
+      },
+      "supply_chain": {
+        "title": "Cadeia de Suprimentos",
+        "minerals": "100% dos Fornecedores utilizando minerais isentos de conflitos em 2025"
+      },
+      "sdg_8": "A empresa conta com uma equipa de cerca de 200 colaboradores, com planta de fabricação, centro tecnológico e escritório comercial. A empresa está a construir um ambiente de trabalho seguro onde os funcionários se sentem valorizados, onde seus direitos são respeitados e onde podem realizar um trabalho significativo.",
+      "sdg_12": "A Wedrone está a projetar e fabricar produtos através do uso responsável de matérias-primas e recursos naturais. A empresa está a trabalhar para reduzir a geração de resíduos ao longo do ciclo de vida das empresas.",
+      "sdg_13": "Ao investir em pesquisa e desenvolvimento para melhorar a eficiência, ajudando a reduzir a complexidade dos veículos elétricos, a Wedrone contribui para combater as mudanças climáticas e o seu impacto. Além disso, a Wedrone está a trabalhar em reduzir as suas emissões de CO2 associadas aos seus processos de construção.",
+      "sdg_16": "A Wedrone quer garantir que os minerais livres de conflitos sejam usados na construção de seus componentes automotivos. A Wedrone implementará uma consulta anual aos fornecedores para coletar a Pesquisa Padrão (modelo EICC/Gesi) sobre minerais de conflito de todos os seus fornecedores."
+    },
+    "cookie_popup": {
+      "title": "Processadores de Terceiros:",
+      "description": "Os nossos parceiros e prestadores de serviços cuidadosamente selecionados podem processar informações pessoais sobre si em nosso nome, conforme descrito abaixo:",
+      "provider_title": "“Prestadores de Serviços de Marketing Digital",
+      "provider_text": "Periodicamente nomeamos agentes de marketing digital para realizar atividades de marketing em nosso nome. Esta atividade pode resultar no processamento de informações pessoais, em conformidade com a legislação aplicável. Os nossos processadores de dados nomeados incluem:",
+      "more_info": "Este site não utiliza qualquer outro tipo de cookies para além dos da Sopro.io.",
+      "accept_button": "Compreendi",
+      "ignore_button": "Ignorar"
+    }
+  },
+  "en": {
+    "navbar": {
+      "about": "About",
+      "products": "Products",
+      "clients": "Clients",
+      "contact": "Contacts"
+    },
+    "footer": {
+      "contacts_title": "Contacts",
+      "contacts_address": "Rua Santos Dias 1052, <br> 4465-253 S. Mamede de Infesta",
+      "contacts_email_label": "geral@wedrone.pt",
+      "contacts_phone": "+351 229 050 700",
+      "contacts_linkedin": "Wedrone",
+      "achievements_title": "Awards",
+      "achievements_list": [
+        "“Supplier Quality Excellence Award 2020”",
+        "“Supplier Quality Excellence Award 2019”",
+        "“Supplier Quality Excellence Award 2018”",
+        "from General Motors"
+      ],
+      "certificates_title": "Certificates",
+      "certificates_list": ["IATF 16949"],
+      "footer_menu_title": "Menu",
+      "footer_menu_about": "About us",
+      "footer_menu_products": "Products",
+      "footer_menu_clients": "Clients",
+      "footer_menu_contact": "Contacts",
+      "powered_by": "Powered by <span onclick=\"window.location.replace('https://visiond.pt')\">Vision D</span>",
+      "rights_reserved": "© All rights reserved to Wedrone 2023"
+    },
+    "home": {
+      "header_subtitle": "Technology",
+      "header_text": "We develop products based on <span>aluminum</span>, using die casting technology and machining of parts for the <span>automotive and construction industries</span>.",
+      "header_button": "↓ more",
+      "about_numbers_title": "BY THE NUMBERS",
+      "about_numbers": {
+        "colaboradores": "employees",
+        "fornos": "melting furnaces",
+        "celulas": "die casting cells",
+        "centros": "machining centers"
+      },
+      "vision_button": "VISION",
+      "mission_button": "MISSION",
+      "values_button": "VALUES",
+      "vision_text": "Wedrone aims to become the national and European reference in the conception and development of industrial engineering projects in die-cast aluminum.",
+      "mission_text": "To create and develop engineering products with high added value, contributing to national economic growth and promoting the development of the local community.",
+      "values_list": [
+        "Excellence in product design and development",
+        "Quality as a guiding principle",
+        "Valuing people and their community",
+        "Environmental policy focused on the planet's urgency"
+      ],
+      "where_we_are_title": "WHERE WE ARE",
+      "where_we_are_location": "S. Mamede de Infesta, <br>Matosinhos",
+      "partners_title": "PARTNERS"
+    },
+    "about": {
+      "header_title": "ABOUT US",
+      "header_text_part1": "Wedrone is a company established in 2020, with a <span>vocation for Research & Development (R&D) activities</span>, which in 2022 acquired all the assets and know-how of <span>a company with over 70 years of existence</span> and specialized in the application of <span>die casting aluminum technology</span> for the production of highly complex parts and components for various industries.",
+      "header_button": "↓ more",
+      "section2_text": "Wedrone is determined to ensure a growing and sustained presence in the automotive industry, the origin of its main customers and products, while also exploring new distribution channels and sectors of activity as part of its diversification strategy. It positions itself as a pioneering and innovative player in product engineering based on the die casting and machining of aluminum parts.",
+      "section3_text1": "The entire team keeps in mind, in its daily operations—be it in new projects, redefining production processes, or optimizing assembly line flows—its commitment to quality, to customers, and to contributing to the community in which it operates.",
+      "section3_text2": "Wedrone also seeks to establish itself as a new form of economic and productive organization that ensures a sustainable balance among people, the environmental impact generated, and the value created for all entities with which it interacts, in a fully committed, transparent, and responsible manner."
+    },
+    "products": {
+      "header_title": "PRODUCTS",
+      "header_text1": "We follow emerging trends in the automotive industry, particularly in vehicle electrification, and are investing in diversifying our offerings.",
+      "header_text2": "In addition to products for ICE vehicles, we already produce parts for electric vehicles.",
+      "header_pdf_link": "General purchasing conditions",
+      "we_produce_title": "WE PRODUCE",
+      "we_produce_subtitle": "Some examples",
+      "we_produce_list": [
+        "EGR valves",
+        "Accelerators",
+        "Transmission",
+        "Oil filters",
+        "EV heat sinks"
+      ],
+      "e_mobility_title": "E-MOBILITY",
+      "e_mobility_subtitle": "We produce applications for",
+      "e_mobility_list": [
+        "48V/12V converters",
+        "AC/DC, DC/AC, DC/DC converters",
+        "Anti-roll control system",
+        "Junction box system"
+      ],
+      "engineering_title": "PRODUCT ENGINEERING",
+      "engineering_text": "We simulate filling and solidification to optimize our molds and avoid future corrections. We introduce customized designs based on the results to ensure quality.",
+      "production_title": "PRODUCTION",
+      "production_description": "What we do, represented in some images.",
+      "galery_texts": [
+        "Fully automated machining unit - WEDRONE factory",
+        "Foundry and Molding - production cell with installed capacity.",
+        "We have several quality control mechanisms to ensure product compliance and alignment with the best market practices."
+      ]
+    },
+    "contact": {
+      "header_title": "Contact us",
+      "header_text": "Talk to us through the <br> form or by email.",
+      "header_email": "geral@wedrone.pt",
+      "form_name_placeholder": "Name",
+      "form_email_placeholder": "Email",
+      "form_subject_placeholder": "Subject",
+      "form_message_placeholder": "Message",
+      "form_button": "Send",
+      "form_error_message_empty": "Write something to us",
+      "form_error_invalid_email": "Invalid email",
+      "form_error_invalid_name": "Invalid name",
+      "form_success_message": "Email sent"
+    },
+    "clients": {
+      "header_title": "CLIENTS",
+      "header_text": "We are proud to have a vast portfolio of Clients, including some of the <span>most recognized brands in the automotive sector.</span>"
+    },
+    "sustainability": {
+      "goals_title": "Medium/Long term GOALS",
+      "work_accidents": {
+        "title": "Work Accidents",
+        "zero_accidents": "Zero Accidents with missing days in 2027",
+        "legal_indicators": "Legal Safe Indicators",
+        "frequency": "Frequency, Gravity, Incidence, Duration Index Less than 5% in 2027",
+        "absenteeism": "Absenteeism"
+      },
+      "resource_management": {
+        "title": "Resource Management",
+        "water": "Water Consumption: 50% Reduction in 2030",
+        "waste": "Waste reduction: 25% Reduction Waste production"
+      },
+      "carbon_footprint": {
+        "title": "Carbon Footprint",
+        "scope1": "50% Reduction in Scope 1 in 2030",
+        "scope2": "100% Reduction in Scope 2 in 2025",
+        "scope3": "10% Reduction in Scope 3 in 2030",
+        "cfp": "CFP zero in 2040",
+        "energy": "Energy Efficiency: 15% Improve Electric energy efficiency in 2025"
+      },
+      "supply_chain": {
+        "title": "Supply Chain",
+        "minerals": "100% Suppliers using conflict-free minerals in 2025"
+      },
+      "sdg_8": "The company has a team of about 200 employees, with manufacturing plant, technological center and commercial office. The company is building a safe and secure workplace where employees feel valued, where their rights are respected, and where they can do meaningful work.",
+      "sdg_12": "Wedrone is designing and manufacturing products through the responsible use of raw materials and natural resources. The company is working to reduce its waste generation throughout the companies' life cycle.",
+      "sdg_13": "By investing in research and development to improve efficiency, helping reducing the complexity of electric vehicles, Wedrone is contributing to combating climate change and its impact. Furthermore, Wedrone is working to reduce its CO2 emissions associated with its manufacturing processes.",
+      "sdg_16": "Wedrone is working to ensure that conflict-free minerals are used in the manufacture of its automotive components. Wedrone will implement an annual supplier inquiry to collect the Standard Survey (EICC/Gesi template) on conflict minerals from all its suppliers."
+    },
+    "cookie_popup": {
+      "title": "Third Party Processors:",
+      "description": "Our carefully selected partners and service providers may process personal information about you on our behalf as described below:",
+      "provider_title": "“Digital Marketing Service Providers",
+      "provider_text": "We periodically appoint digital marketing agents to conduct marketing activity on our behalf, such activity may result in the compliant processing of personal information. Our appointed data processors include:",
+      "more_info": "This website does not use any other type of cookies except those from Sopro.io.",
+      "accept_button": "I Understand",
+      "ignore_button": "Ignore"
+    }
+  },
+  "de": {
+    "navbar": {
+      "about": "Über",
+      "products": "Produkte",
+      "clients": "Kunden",
+      "contact": "Kontakt"
+    },
+    "footer": {
+      "contacts_title": "Kontakt",
+      "contacts_address": "Rua Santos Dias 1052, <br> 4465-253 S. Mamede de Infesta",
+      "contacts_email_label": "geral@wedrone.pt",
+      "contacts_phone": "+351 229 050 700",
+      "contacts_linkedin": "Wedrone",
+      "achievements_title": "Auszeichnungen",
+      "achievements_list": [
+        "“Supplier Quality Excellence Award 2020”",
+        "“Supplier Quality Excellence Award 2019”",
+        "“Supplier Quality Excellence Award 2018”",
+        "von General Motors"
+      ],
+      "certificates_title": "Zertifikate",
+      "certificates_list": ["IATF 16949"],
+      "footer_menu_title": "Menü",
+      "footer_menu_about": "Über uns",
+      "footer_menu_products": "Produkte",
+      "footer_menu_clients": "Kunden",
+      "footer_menu_contact": "Kontakt",
+      "powered_by": "Powered by <span onclick=\"window.location.replace('https://visiond.pt')\">Vision D</span>",
+      "rights_reserved": "© Alle Rechte vorbehalten für Wedrone 2023"
+    },
+    "home": {
+      "header_subtitle": "Technologie",
+      "header_text": "Wir entwickeln Produkte auf Basis von <span>Aluminium</span>, unter Verwendung von Druckguss-Technologie und der Bearbeitung von Teilen für die <span>Automobil- und Bauindustrie</span>.",
+      "header_button": "mehr",
+      "about_numbers_title": "IN ZAHLEN",
+      "about_numbers": {
+        "colaboradores": "Mitarbeiter",
+        "fornos": "Schmelzöfen",
+        "celulas": "Druckgusszellen",
+        "centros": "Bearbeitungszentren"
+      },
+      "vision_button": "VISION",
+      "mission_button": "MISSION",
+      "values_button": "WERTE",
+      "vision_text": "Wedrone strebt an, die nationale und europäische Referenz in der Konzeption und Entwicklung von industriellen Ingenieurprojekten im Aluminium-Druckguss zu werden.",
+      "mission_text": "Schaffung und Entwicklung von Ingenieurprodukten mit hohem Mehrwert, um zum nationalen Wirtschaftswachstum beizutragen und die lokale Gemeinschaft zu fördern und weiterzuentwickeln.",
+      "values_list": [
+        "Exzellenz in Produktgestaltung und -entwicklung",
+        "Qualität als Leitprinzip",
+        "Wertschätzung von Menschen und ihrer Gemeinschaft",
+        "Umweltpolitik mit Fokus auf die Dringlichkeit des Planeten"
+      ],
+      "where_we_are_title": "WO WIR SIND",
+      "where_we_are_location": "S. Mamede de Infesta, <br>Matosinhos",
+      "partners_title": "PARTNER"
+    },
+    "about": {
+      "header_title": "ÜBER UNS",
+      "header_text_part1": "Wedrone ist ein Unternehmen, das 2020 gegründet wurde, mit einer <span>Berufung für Forschungs- und Entwicklungsaktivitäten (F&E)</span>. Im Jahr 2022 erwarb es alle Vermögenswerte und das Know-how eines <span>Unternehmens mit über 70 Jahren Erfahrung</span>, das auf die Anwendung von <span>Aluminium-Druckgusstechnologie</span> zur Herstellung hochkomplexer Teile und Komponenten für verschiedene Branchen spezialisiert war.",
+      "header_button": "mehr",
+      "section2_text": "Wedrone ist entschlossen, seine wachsende und nachhaltige Präsenz in der Automobilindustrie, dem Ursprung seiner wichtigsten Kunden und Produkte, zu sichern und gleichzeitig neue Vertriebskanäle und Branchen im Rahmen seiner Diversifizierungsstrategie zu erschließen. Es positioniert sich als Pionier und Innovator in der Produktentwicklung auf Basis von Aluminium-Druckguss und -Bearbeitung.",
+      "section3_text1": "Das gesamte Team berücksichtigt in seinem täglichen Handeln – sei es in neuen Projekten, in der Neudefinition von Produktionsprozessen oder in der Optimierung der Abläufe an den Montagelinien – stets sein Engagement für Qualität, für die Kunden und für den Beitrag zur Gemeinschaft, in der es tätig ist.",
+      "section3_text2": "Wedrone möchte sich auch als neue Form einer ökonomisch-produktiven Organisation etablieren, die ein nachhaltiges Gleichgewicht zwischen den Menschen, den verursachten Umweltauswirkungen und dem geschaffenen Wert für alle beteiligten Interessengruppen gewährleistet – in vollständig engagierter, transparenter und verantwortungsbewusster Weise."
+    },
+    "products": {
+      "header_title": "PRODUKTE",
+      "header_text1": "Wir folgen den neuen Trends in der Automobilindustrie, insbesondere bei der Elektrifizierung von Fahrzeugen, und investieren in die Diversifizierung unseres Angebots.",
+      "header_text2": "Neben Produkten für Verbrennungsmotoren (ICE) produzieren wir bereits Teile für Elektrofahrzeuge.",
+      "header_pdf_link": "Allgemeine Einkaufsbedingungen",
+      "we_produce_title": "WIR PRODUZIEREN",
+      "we_produce_subtitle": "Einige Beispiele",
+      "we_produce_list": [
+        "EGR-Ventile",
+        "Gaspedale",
+        "Getriebe",
+        "Ölfilter",
+        "Wärmeableiter für Elektrofahrzeuge"
+      ],
+      "e_mobility_title": "E-MOBILITÄT",
+      "e_mobility_subtitle": "Wir produzieren Anwendungen für",
+      "e_mobility_list": [
+        "48V/12V-Konverter",
+        "AC/DC-, DC/AC-, DC/DC-Konverter",
+        "Anti-Roll-Kontrollsystem",
+        "Verteilerkastensystem"
+      ],
+      "engineering_title": "PRODUKTINGENIEURWESEN",
+      "engineering_text": "Wir simulieren das Füll- und Erstarrungsverhalten, um unsere Formen zu optimieren und künftige Korrekturen zu vermeiden. Auf Grundlage der Ergebnisse führen wir maßgeschneiderte Designs ein, um Qualität zu gewährleisten.",
+      "production_title": "PRODUKTION",
+      "production_description": "Was wir tun, dargestellt in einigen Bildern.",
+      "galery_texts": [
+        "Vollautomatisierte Bearbeitungseinheit – WEDRONE-Fabrik",
+        "Gießerei und Formgebung – Produktionszelle mit vorhandener Kapazität.",
+        "Wir verfügen über verschiedene Qualitätskontrollmechanismen, um die Produktkonformität und die Ausrichtung an den besten Marktpraktiken sicherzustellen."
+      ]
+    },
+    "contact": {
+      "header_title": "Kontaktieren Sie uns",
+      "header_text": "Kontaktieren Sie uns über das <br> Formular oder per E-Mail.",
+      "header_email": "geral@wedrone.pt",
+      "form_name_placeholder": "Name",
+      "form_email_placeholder": "Email",
+      "form_subject_placeholder": "Betreff",
+      "form_message_placeholder": "Nachricht",
+      "form_button": "Senden",
+      "form_error_message_empty": "Bitte schreiben Sie etwas",
+      "form_error_invalid_email": "Ungültige E-Mail",
+      "form_error_invalid_name": "Ungültiger Name",
+      "form_success_message": "E-Mail gesendet"
+    },
+    "clients": {
+      "header_title": "KUNDEN",
+      "header_text": "Wir sind stolz darauf, über ein umfangreiches Kundenportfolio zu verfügen, darunter einige der <span>bekanntesten Marken im Automobilsektor</span>."
+    },
+    "sustainability": {
+      "goals_title": "Mittel-/Langfristige ZIELE",
+      "work_accidents": {
+        "title": "Arbeitsunfälle",
+        "zero_accidents": "Null Arbeitsunfälle mit Ausfalltagen im Jahr 2027",
+        "legal_indicators": "Gesetzliche Sicherheitsindikatoren",
+        "frequency": "Frequenz, Schweregrad, Inzidenz, Dauerindex unter 5% im Jahr 2027",
+        "absenteeism": "Abwesenheit"
+      },
+      "resource_management": {
+        "title": "Ressourcenmanagement",
+        "water": "Wasserverbrauch: 50% Reduktion im Jahr 2030",
+        "waste": "Müllreduktion: 25% Reduktion der Müllproduktion"
+      },
+      "carbon_footprint": {
+        "title": "CO2-Bilanz",
+        "scope1": "50% Reduktion im Scope 1 im Jahr 2030",
+        "scope2": "100% Reduktion im Scope 2 im Jahr 2025",
+        "scope3": "10% Reduktion im Scope 3 im Jahr 2030",
+        "cfp": "CFP null im Jahr 2040",
+        "energy": "Energieeffizienz: 15% Verbesserung der elektrischen Energieeffizienz im Jahr 2025"
+      },
+      "supply_chain": {
+        "title": "Lieferkette",
+        "minerals": "100% der Lieferanten verwenden konfliktfreie Mineralien im Jahr 2025"
+      },
+      "sdg_8": "Das Unternehmen hat ein Team von etwa 200 Mitarbeitern, mit Produktionsanlage, Technologiezentrum und Handelsbüro. Das Unternehmen baut einen sicheren Arbeitsplatz auf, an dem sich die Mitarbeiter wertgeschätzt fühlen, ihre Rechte respektiert werden und sie bedeutungsvolle Arbeit leisten können.",
+      "sdg_12": "Wedrone entwickelt und produziert Produkte durch den verantwortungsvollen Einsatz von Rohstoffen und natürlichen Ressourcen. Das Unternehmen arbeitet daran, seine Abfallerzeugung während des gesamten Lebenszyklus der Unternehmen zu reduzieren.",
+      "sdg_13": "Durch Investitionen in Forschung und Entwicklung zur Verbesserung der Effizienz und zur Reduzierung der Komplexität von Elektrofahrzeugen trägt Wedrone zur Bekämpfung des Klimawandels und seiner Auswirkungen bei. Darüber hinaus arbeitet Wedrone daran, seine CO2-Emissionen im Zusammenhang mit seinen Herstellungsprozessen zu reduzieren.",
+      "sdg_16": "Wedrone arbeitet daran, sicherzustellen, dass konfliktfreie Mineralien bei der Herstellung seiner Automobilkomponenten verwendet werden. Wedrone wird eine jährliche Lieferantenumfrage durchführen, um die Standardumfrage (EICC/Gesi-Vorlage) zu Konfliktmineralien von allen seinen Lieferanten zu sammeln."
+    },
+    "cookie_popup": {
+      "title": "Drittanbieter:",
+      "description": "Unsere sorgfältig ausgewählten Partner und Dienstleister können persönliche Informationen über Sie in unserem Namen wie unten beschrieben verarbeiten:",
+      "provider_title": "“Digitale Marketingdienstleister",
+      "provider_text": "Wir beauftragen regelmäßig digitale Marketingagenturen, um Marketingaktivitäten in unserem Namen durchzuführen. Diese Aktivitäten können zur datenschutzkonformen Verarbeitung persönlicher Daten führen. Unsere benannten Datenverarbeiter umfassen:",
+      "more_info": "Diese Website verwendet keine anderen Arten von Cookies außer denen von Sopro.io.",
+      "accept_button": "Ich verstehe",
+      "ignore_button": "Ignorieren"
+    }
+  }
+}

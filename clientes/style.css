@@ -1,0 +1,153 @@
+/* Clients */
+
+
+#clients {
+    position: relative;
+    max-height: 100vh;
+}
+
+#clients-top {
+    padding-top: 16rem;
+    padding-left: 13vw;
+    margin-bottom: 5rem;
+    width: 50vw;
+}
+
+#clients-top h1 {
+    font-size: 3rem;
+    font-family: font-black;
+    margin-bottom: 1rem;
+}
+
+#clients-top p {
+    font-size: 1.2rem;
+    color: #B3B3B3;
+}
+
+#clients-top span {
+    color: white;
+}
+
+#clients-bottom {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: linear-gradient(to bottom, transparent 0%, transparent 50%, white 50%, white 100%);
+}
+
+.clients-list {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.clients-list:nth-child(1) {
+    animation: scroll-left-clients 50000ms linear infinite;
+}
+
+.clients-list:nth-child(2) {
+    animation: scroll-left-clients2 50000ms linear infinite;
+}
+
+.clients-list img {
+    position: relative;
+    height: 5rem;
+    width: 100%;
+    margin: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    z-index: 5;
+}
+
+@media screen and (max-width: 650px) {
+    #clients-top {
+        width: 90vw;
+    }
+
+    .clients-list img {
+        position: relative;
+        height: 3.5rem;
+        width: 100%;
+        margin: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        z-index: 5;
+    }
+    
+    .clients-list:nth-child(1) {
+        animation-duration: 50000ms;
+    }
+    
+    .clients-list:nth-child(2) {
+        animation-duration: 50000ms;
+    }   
+}
+
+@media screen and (min-height: 1000px) {
+    #clients {
+        height: 100vh;
+    }
+}
+
+@keyframes scroll-left-clients {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100.5rem);
+    }
+}
+
+@keyframes scroll-left-clients2 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(125.5rem);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.reveal {
+    opacity: 0;
+    transition: all 400ms ease-in;
+}
+
+.reveal.horizontal.left {
+    transform: translateX(50px);
+}
+
+.reveal.horizontal.right {
+    transform: translateX(-50px);
+}
+
+.reveal.vertical {
+    transform: translateY(50px);
+}
+
+.reveal.vertical {
+    transform: translateY(50px);
+}
+
+.reveal.active {
+    opacity: 1;
+}
+
+.reveal.horizontal.active {
+    transform: translateX(0);
+}
+
+.reveal.vertical.active {
+    transform: translateY(0);
+}

@@ -1,0 +1,294 @@
+#header {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    overflow-x: hidden;
+}
+
+#header-left {
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 13vw;
+    z-index: 5;
+}
+
+#header-left h1 {
+    font-size: 3rem;
+    font-family: font-black;
+}
+
+#header-left p {
+    font-size: 1.2rem;
+}
+
+#header-left p:nth-child(3) {
+    color: #c9c9c9;
+}
+
+#header-right {
+    position: relative;
+    width: 50%;
+    padding-left: 5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 5rem;
+    padding-right: 13vw;
+}
+
+#header-right img {
+    position: absolute;
+    width: 30rem;
+    bottom: 0rem;
+    right: 0;
+}
+
+#form {
+    position: relative;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 5;
+}
+
+#form input {
+    position: relative;
+    width: 100%;
+    padding: 5px;
+    margin: .5rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+    border-bottom: solid 1px white;
+}
+
+#form input::placeholder {
+    color: #c9c9c9;
+}
+
+#form textarea {
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    margin: .5rem;
+    margin-top: 1rem;
+    border: solid 1px white;
+    color: white;
+    border-radius: 15px;
+    outline: none;
+    background-color: transparent;
+    resize: none;
+    font-size: 1rem;
+}
+
+#form textarea::placeholder {
+    color: #c9c9c9;
+}
+
+#form button {
+    position: relative;
+    width: 6rem;
+    height: 2rem;
+    margin: .5rem;
+    border-radius: 100vw;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: solid 1px var(--orange);
+    transition: all 200ms ease-in;
+}
+
+#form button:hover {
+    background-color: var(--orange);
+}
+
+#form > div {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#form > div > div {
+    position: absolute;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    right: 0;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 7px;
+    border-radius: 100vw;
+    opacity: 0;
+}
+
+#form > div > div img {
+    position: relative;
+    width: 100%;
+}
+
+#error-message {
+    background-color: rgb(195, 127, 0);
+    color: rgb(255, 218, 150);
+}
+
+#check-message {
+    background-color: green;
+    color: rgb(129, 255, 129);
+    width: 10rem;
+}
+
+#error-message.animate,
+#check-message.animate {
+    animation: modal-in 10000ms ease-in forwards;
+}
+
+@keyframes modal-in {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    10% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    90% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+    #header-right {
+        padding-top: 8rem;
+    }
+
+    #form > div {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    
+    #form > div > div {
+        position: relative;
+        left: 0;
+        margin-left: .5rem;
+    }
+
+    #form textarea {
+        height: 10rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #header {
+        display: flex;
+        flex-direction: column;
+        height: 130vh;
+        padding-top: 10rem;
+    }
+
+    #header-left {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    #header-right {
+        width: 100%;
+        padding-top: 0;
+        padding-left: 12vw;
+        padding-right: 12vw;
+        align-items: flex-start;
+    }
+
+    #header-right img {
+        position: absolute;
+        width: 20rem;
+        bottom: 0rem;
+        right: 0;
+    }
+
+    #form textarea {
+        height: 10rem;
+    }
+
+    #header-left p {
+        font-size: 1.1rem;
+        margin-right: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 500px) { 
+    
+    #header-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-top: 0;
+        text-align: left;
+    }
+
+    #header-left h1,
+    #header-left p,
+    #header-left a {
+        width: 80vw;
+        margin: 0;
+    }
+
+    #header-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    #form {
+        width: 80vw;
+        display: flex;
+        padding: 0;
+    }
+
+    #header-right > img {
+        display: none;
+    }
+
+    #form textarea {
+        margin-bottom: 1rem;
+    }
+
+
+}
+
+@media screen and (max-width: 400px) { 
+    #header-left {
+        padding-left: 10vw;
+    }
+
+    #header-left h1 {
+        font-size: 2.3rem;
+    }
+
+    #form > div {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+
+}

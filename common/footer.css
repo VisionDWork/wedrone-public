@@ -1,0 +1,251 @@
+#footer {
+    position: relative;
+    height: 20rem;
+    background-color: white;
+
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+}
+
+#footer-icon {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: logo;
+}
+
+#footer-icon img {
+    width: 12rem;
+    cursor: pointer;
+    filter: brightness(0);
+}
+
+#footer-contacts {
+    position: relative;
+    padding-top: 4rem;
+    margin-right: 1rem;
+    grid-area: contacts;
+}
+
+#footer-contacts h1 {
+    position: relative;
+    font-size: 1.1rem;
+    font-family: font-bold;
+    margin-bottom: 1.3rem;
+}
+
+#footer-contacts p {
+    position: relative;
+    font-family: font-black;
+    font-size: .8rem;
+}
+
+#footer-contacts span {
+    position: relative;
+    font-size: .8rem;
+}
+
+#footer-contacts div {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: .5rem;
+}
+
+#footer-contacts img {
+    position: relative;
+    width: 12px;
+    margin-right: .5rem;
+}
+
+#footer-achievments {
+    position: relative;
+    margin-right: 1rem;
+    padding-top: 4rem;
+    grid-area: achievements;
+}
+
+#footer-achievments h1 {
+    position: relative;
+    font-size: 1.1rem;
+    font-family: font-bold;
+    margin-bottom: 1rem;
+}
+
+#footer-achievments p {
+    font-size: .9rem;
+}
+
+#footer-achievments p:nth-child(5) {
+    margin-bottom: 1rem;
+}
+
+#footer-menu {
+    position: relative;
+    padding-top: 4rem;
+    margin-right: 1rem;
+    grid-area: menu;
+    display: none;
+}
+
+#footer-menu h1 {
+    position: relative;
+    font-size: 1.1rem;
+    font-family: font-bold;
+    margin-bottom: 1.3rem;
+}
+
+#footer-menu p {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+#footer-menu p.active {
+    color: var(--orange);
+}
+
+#footer-menu div {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: .5rem;
+}
+
+#footer-certifieds {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-certifieds img {
+    position: relative;
+}
+
+#page-bottom {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    grid-area: bottom-page;
+}
+
+#page-bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+#footer_powered_by a {
+    color: var(--orange);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer-menu-links {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.footer-menu-links li, .footer-menu-links a {
+    list-style: none;
+    padding: 0;
+    color: black;
+    font-size: .9rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer-menu-links a:hover {
+    color: var(--orange);
+}
+
+@media screen and (max-width: 1025px) {
+    #footer-certifieds {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #footer {
+        display: grid;
+        grid-template-areas: 
+        "contacts achievements"
+        "logo logo"
+        "bottom-page bottom-page";
+        height: 30rem;
+    }
+
+    #footer-icon img {
+        margin-bottom: 2rem;
+    }
+
+    #footer-achievments p {
+        font-size: .9rem;
+    }
+
+    #footer-contacts p {
+        font-size: .9rem;
+    }
+
+    #footer-contacts span {
+        font-size: .9rem;
+    }
+    
+}
+
+@media screen and (max-width: 530px) {
+    #footer-menu {
+        display: inline;
+    }
+
+    #footer {
+        display: grid;
+        grid-template-areas: 
+        "contacts menu"
+        "logo logo";
+    }
+
+    #footer-achievments {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #footer {
+        display: grid;
+        grid-template-areas: 
+        "contacts menu"
+        "logo logo";
+    }
+
+    #footer-icon img {
+        width: 9rem;
+        margin-bottom: 3.5rem;
+    }
+
+    #footer-achievments {
+        display: none;
+    }
+
+    #footer-contacts p {
+        font-size: .8rem;
+    }
+
+    #footer-contacts span {
+        font-size: .8rem;
+    }
+    
+}
