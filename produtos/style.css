@@ -293,7 +293,7 @@
 
 #mobility {
     position: relative;
-    background-image: url('../../content/images/white-bg.png');
+    background-image: url('../content/images/white-bg.png');
     display: flex;
     justify-content: flex-end;
     align-items: center;
