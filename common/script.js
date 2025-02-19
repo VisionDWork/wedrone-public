@@ -1,8 +1,7 @@
 // Render Navbar and Footer after the DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     // Render Navbar
-    const navbarUrl = window.location.pathname.endsWith('inicio.html') ? './common/navbar.html' : '../common/navbar.html';
-    fetch(navbarUrl)
+    fetch("../common/navbar.html")
         .then(res => res.text())
         .then(html => {
             document.getElementById("navbar-container").innerHTML = html;
@@ -59,16 +58,14 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
     // Render Footer
-    const footerUrl = window.location.pathname.endsWith('inicio.html') ? './common/footer.html' : '../common/footer.html';
-    fetch(footerUrl)
+    fetch("../common/footer.html")
         .then(res => res.text())
         .then(html => {
             document.getElementById("footer-container").innerHTML = html;
         });
 
     // Render Pop up
-    const popupUrl = window.location.pathname.endsWith('inicio.html') ? './common/cookies.html' : '../common/cookies.html';
-    fetch(popupUrl)
+    fetch("../common/cookies.html")
         .then(res => res.text())
         .then(html => {
             const popup = document.getElementById('cookies');
@@ -138,8 +135,7 @@ function setLanguage(lang) {
 }
 
 function applyTranslations(lang) {
-    const copywriteUrl = window.location.pathname.endsWith('inicio.html') ? './common/copywrite.json' : '../common/copywrite.json';
-    fetch(copywriteUrl)
+    fetch('../common/copywrite.json')
         .then(res => res.json())
         .then(data => {
             translations = data;
