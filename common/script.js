@@ -331,7 +331,9 @@ function applyTranslations(lang) {
                 document.getElementById('footer_menu_about').textContent = translations[lang].footer.footer_menu_about;
                 document.getElementById('footer_menu_products').textContent = translations[lang].footer.footer_menu_products;
                 document.getElementById('footer_menu_clients').textContent = translations[lang].footer.footer_menu_clients;
-                document.getElementById('footer_menu_contact').textContent = translations[lang].footer.footer_menu_contact;
+                document.getElementById('footer_menu_sustentability').textContent = translations[lang].footer.footer_menu_sustentability;
+                document.getElementById('footer_menu_resources').textContent = translations[lang].footer.footer_menu_resources;
+                document.getElementById('footer_menu_contacts').textContent = translations[lang].footer.footer_menu_contacts;
 
                 document.getElementById('footer_powered_by').innerHTML = translations[lang].footer.powered_by;
                 document.getElementById('footer_rights_reserved').textContent = translations[lang].footer.rights_reserved;

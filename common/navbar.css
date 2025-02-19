@@ -212,19 +212,27 @@ body {
     }
 
     #navbar-menu.open ul li:nth-child(2) {
-        animation-delay: 250ms;
+        animation-delay: 200ms;
     }
 
     #navbar-menu.open ul li:nth-child(3) {
-        animation-delay: 350ms;
+        animation-delay: 250ms;
     }
 
     #navbar-menu.open ul li:nth-child(4) {
-        animation-delay: 450ms;
+        animation-delay: 300ms;
     }
 
-    #navbar-menu.open ul p:nth-child(5) {
-        animation-delay: 550ms;
+    #navbar-menu.open ul li:nth-child(5) {
+        animation-delay: 350ms;
+    }
+
+    #navbar-menu.open ul li:nth-child(6) {
+        animation-delay: 400ms;
+    }
+
+    #navbar-menu.open ul p:nth-child(7) {
+        animation-delay: 450ms;
     }
 
     @keyframes slide-left {

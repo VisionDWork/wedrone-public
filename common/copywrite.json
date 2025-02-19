@@ -25,7 +25,9 @@
       "footer_menu_about": "Sobre nós",
       "footer_menu_products": "Produtos",
       "footer_menu_clients": "Clientes",
-      "footer_menu_contact": "Contactos",
+      "footer_menu_sustentability": "Sustentabilidade",
+      "footer_menu_resources": "Recursos",
+      "footer_menu_contacts": "Contactos",
       "powered_by": "Powered by <span onclick=\"window.location.replace('https://visiond.pt')\">Vision D</span>",
       "rights_reserved": "© All rights reserved to Wedrone 2023"
     },
@@ -180,7 +182,9 @@
       "footer_menu_about": "About us",
       "footer_menu_products": "Products",
       "footer_menu_clients": "Clients",
-      "footer_menu_contact": "Contacts",
+      "footer_menu_sustentability": "Sustainability",
+      "footer_menu_resources": "Resources",
+      "footer_menu_contacts": "Contacts",
       "powered_by": "Powered by <span onclick=\"window.location.replace('https://visiond.pt')\">Vision D</span>",
       "rights_reserved": "© All rights reserved to Wedrone 2023"
     },
@@ -335,7 +339,9 @@
       "footer_menu_about": "Über uns",
       "footer_menu_products": "Produkte",
       "footer_menu_clients": "Kunden",
-      "footer_menu_contact": "Kontakt",
+      "footer_menu_sustentability": "Nachhaltigkeit",
+      "footer_menu_resources": "Ressourcen",
+      "footer_menu_contacts": "Kontakt",
       "powered_by": "Powered by <span onclick=\"window.location.replace('https://visiond.pt')\">Vision D</span>",
       "rights_reserved": "© Alle Rechte vorbehalten für Wedrone 2023"
     },
